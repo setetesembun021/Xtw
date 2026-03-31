@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Watch Full Video</title>
+
+  <!-- Twitter Player Card -->
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:title" content="Watch Full Video">
+  <meta name="twitter:description" content="Tap to watch now">
+  <meta name="twitter:image" content="https://via.placeholder.com/1280x720.png?text=Watch+Now">
+
+  <!-- GANTI DOMAIN INI -->
+  <meta name="twitter:player" content="https://YOURDOMAIN.com/index.html">
+  <meta name="twitter:player:width" content="1280">
+  <meta name="twitter:player:height" content="720">
+
+  <!-- VIDEO STREAM -->
+  <meta name="twitter:player:stream" content="https://cdn.videy.co/Bby8bVTT1.mp4">
+  <meta name="twitter:player:stream:content_type" content="video/mp4">
+
+  <!-- Open Graph (biar lebih kebaca) -->
+  <meta property="og:title" content="Watch Full Video">
+  <meta property="og:description" content="Tap to watch now">
+  <meta property="og:image" content="https://via.placeholder.com/1280x720.png?text=Watch+Now">
+  <meta property="og:type" content="video.other">
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+    }
+    video {
+      width: 100%;
+      height: 100vh;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+
+<video controls autoplay playsinline>
+  <source src="https://cdn.videy.co/Bby8bVTT1.mp4" type="video/mp4">
+</video>
+
+</body>
+</html>

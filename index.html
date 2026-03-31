@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="twitter:card" content="player">
+<meta name="twitter:player" content="https://xplayyhub3.netlify.app/">
 
-  <!-- GANTI DOMAIN INI -->
-  <meta name="twitter:player" content="https://xplayyhub2.netlify.app/">
-  <meta name="twitter:player:width" content="1280">
-  <meta name="twitter:player:height" content="720">
+<meta name="twitter:player:width" content="1280">
+<meta name="twitter:player:height" content="720">
 
-  <!-- VIDEO STREAM -->
-  <meta name="twitter:player:stream" content="https://cdn.videy.co/Bby8bVTT1.mp4">
-  <meta name="twitter:player:stream:content_type" content="video/mp4">
+<!-- Stream video -->
+<meta name="twitter:player:stream" content="https://cdn.videy.co/Bby8bVTT1.mp4">
+<meta name="twitter:player:stream:content_type" content="video/mp4">
 
-  <!-- Open Graph (biar lebih kebaca) -->
-  <meta property="og:title" content="Watch Full Video">
-  <meta property="og:description" content="Tap to watch now">
-  <meta property="og:image" content="https://via.placeholder.com/1280x720.png?text=Watch+Now">
-  <meta property="og:type" content="video.other">
+<!-- Thumbnail -->
+<meta name="twitter:image" content="https://via.placeholder.com/1280x720.png?text=Watch+Now">
 
-  <style>
-    body {
-      margin: 0;
-      background: black;
-    }
-    video {
-      width: 100%;
-      height: 100vh;
-      object-fit: contain;
-    }
-  </style>
+<!-- Open Graph -->
+<meta property="og:type" content="video.other">
+<meta property="og:video" content="https://cdn.videy.co/Bby8bVTT1.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta property="og:video:width" content="1280">
+<meta property="og:video:height" content="720">
+
+<style>
+body {
+  margin: 0;
+  background: black;
+}
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+</style>
 </head>
 
 <body>
 
-<video controls autoplay playsinline>
+<video autoplay muted playsinline loop preload="auto">
   <source src="https://cdn.videy.co/Bby8bVTT1.mp4" type="video/mp4">
 </video>
 
